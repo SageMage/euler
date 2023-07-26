@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "euler", "euler.csproj", "{88A1E53D-1999-45FA-9855-05393B0C0C44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "euler.UnitTests", "..\euler.UnitTests\euler.UnitTests.csproj", "{AF45F7B0-22C1-43DC-924F-6924377E401F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{88A1E53D-1999-45FA-9855-05393B0C0C44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88A1E53D-1999-45FA-9855-05393B0C0C44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88A1E53D-1999-45FA-9855-05393B0C0C44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88A1E53D-1999-45FA-9855-05393B0C0C44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF45F7B0-22C1-43DC-924F-6924377E401F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF45F7B0-22C1-43DC-924F-6924377E401F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF45F7B0-22C1-43DC-924F-6924377E401F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF45F7B0-22C1-43DC-924F-6924377E401F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6BAF46CB-0188-4E51-B601-7CB626BC6F8F}
+	EndGlobalSection
+EndGlobal
