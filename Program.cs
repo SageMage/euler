@@ -6,6 +6,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddTransient<IProblem1Service, Problem1Service>();
 builder.Services.AddTransient<IProblem2Service, Problem2Service>();
 builder.Services.AddTransient<IProblem3Service, Problem3Service>();
+builder.Services.AddTransient<IProblem4Service, Problem4Service>();
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
